@@ -32,7 +32,7 @@ npx maxcluster-mcp-server
 #### Option 2: Claude Code (One-liner)
 
 ```bash
-claude mcp add maxcluster-mcp-server --env MAXCLUSTER_PAT=your_token_here
+claude mcp add maxcluster-mcp-server --env MAXCLUSTER_PAT=your_token_here -- npx -y maxcluster-mcp-server
 ```
 
 #### Option 3: Manual Installation
